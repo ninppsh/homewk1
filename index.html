@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const firstName = prompt("შეიყვანეთ თქვენი სახელი");
+        const lasttName = prompt("შეიყვანეთ თქვენი გვარი");
+        const birthYear = prompt("შეიყვანეთ თქვენი დაბადების წელი");
+        const address = prompt("შეიყვანეთ თქვენი საცხოვრებელი ადგილი");
+
+        // alert(`გამარჯობა ${firstName} ${lasttName}, მიხარია რომ უკვე ხართ ${2024 - birthYear} წლის და ცხოვრობთ ${address}`);
+        alert("გამარჯობა" + " " + firstName + " " + lasttName + "," + " " + "მიხარია რომ უკვე ხართ" + " " + (2024-Number(birthYear)) + " " + "წლის და ცხოვრობთ" + " " + address);
+    </script>
+</body>
+</html>
